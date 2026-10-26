@@ -5,17 +5,56 @@
 }
 
 body {
-  background-color: black;
+  font-family: sans-serif;
+}
+.space{
+    display: flex;
+    gap: 20px;
+
+    
 }
 
 header {
   background-color: #fffeff;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  gap: 12px;
+  gap: 20px;
+
+}
+.logo{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "UnifrakturMaguntia", cursive;;
+}
+ul a{
+    text-decoration: none;
+    color: black;
+    text-transform: capitalize;
+    font-size: 14px;
+    font-weight: 600;
+}
+.transparent-button{
+    border: 0;
+    background-color: inherit;
+    font-weight: 500;
+    text-transform: capitalize;
+}
+.unique{
+    background-color: #171715;
+    border-radius: 20px;
+    padding: 10px;
+    color: #fffeff;
+    border: 0;
+    font-weight: 600;
 }
