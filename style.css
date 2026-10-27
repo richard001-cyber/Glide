@@ -1,40 +1,63 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-.icons{
-  width: 25px;
-  height: 25px;
+body {
+  font-family: sans-serif;
 }
 
-.title{
-  font-size: medium; 
-}
-
-.position{
-  justify-content: center;
+header {
+  background-color: #fffeff;
   display: flex;
-  gap: 30px;
-}
-
-.position a{
-  text-decoration: none;
-}
-.logo{
-  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   align-items: center;
 }
-.move{
-text-align: right;
-display: flex;
-gap: 30px;
-justify-content: right;
+
+ul {
+  display: flex;
+  list-style-type: none;
+  gap: 20px;
 }
 
-header{
-display: flex;
-justify-content: space-between;
-padding: 20px;
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Yarndings 12", system-ui;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.trans-btn {
+  border: 0;
+  background-color: inherit;
+  font-weight: 550;
+  text-transform: capitalize;
+}
+
+.btn-container {
+  display: flex;
+  gap: 25px;
+}
+
+.black-btn {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #171715;
+  color: white;
+  border: 0;
+  font-weight: 550;
 }
