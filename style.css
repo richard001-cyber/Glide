@@ -1,60 +1,40 @@
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body {
-  font-family: sans-serif;
-}
-.space{
-    display: flex;
-    gap: 20px;
-
-    
+.icons{
+  width: 25px;
+  height: 25px;
 }
 
-header {
-  background-color: #fffeff;
+.title{
+  font-size: medium; 
+}
+
+.position{
+  justify-content: center;
   display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  align-items: center;
+  gap: 30px;
 }
 
-ul {
-  display: flex;
-  list-style-type: none;
-  gap: 20px;
-
+.position a{
+  text-decoration: none;
 }
 .logo{
-    font-size: 30px;
-    font-weight: bold;
-    font-family: "UnifrakturMaguntia", cursive;;
+  display: flex;
+  align-items: center;
 }
-ul a{
-    text-decoration: none;
-    color: black;
-    text-transform: capitalize;
-    font-size: 14px;
-    font-weight: 600;
+.move{
+text-align: right;
+display: flex;
+gap: 30px;
+justify-content: right;
 }
-.transparent-button{
-    border: 0;
-    background-color: inherit;
-    font-weight: 500;
-    text-transform: capitalize;
-}
-.unique{
-    background-color: #171715;
-    border-radius: 20px;
-    padding: 10px;
-    color: #fffeff;
-    border: 0;
-    font-weight: 600;
+
+header{
+display: flex;
+justify-content: space-between;
+padding: 20px;
 }
